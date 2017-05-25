@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152EBD631EC3F60900FA90BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBD621EC3F60900FA90BF /* AppDelegate.swift */; };
+		152EBD651EC3F60900FA90BF /* CompanySelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBD641EC3F60900FA90BF /* CompanySelectionController.swift */; };
+		152EBD681EC3F60900FA90BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152EBD661EC3F60900FA90BF /* Main.storyboard */; };
+		152EBD6B1EC3F60900FA90BF /* iSuranceMine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 152EBD691EC3F60900FA90BF /* iSuranceMine.xcdatamodeld */; };
+		152EBD6D1EC3F60900FA90BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152EBD6C1EC3F60900FA90BF /* Assets.xcassets */; };
+		152EBD701EC3F60900FA90BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152EBD6E1EC3F60900FA90BF /* LaunchScreen.storyboard */; };
+		152EBD7B1EC3F60900FA90BF /* iSuranceMineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBD7A1EC3F60900FA90BF /* iSuranceMineTests.swift */; };
+		152EBD861EC3F60900FA90BF /* iSuranceMineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBD851EC3F60900FA90BF /* iSuranceMineUITests.swift */; };
+		152EBD961EC3F8A100FA90BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 152EBD951EC3F8A100FA90BF /* GoogleService-Info.plist */; };
+		152EBD981EC3F92700FA90BF /* CarClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBD971EC3F92700FA90BF /* CarClassification.swift */; };
+		152EBDA11EC647B400FA90BF /* Cocon-Next-Arabic-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 152EBD9F1EC647B400FA90BF /* Cocon-Next-Arabic-Light.otf */; };
+		152EBDA31EC647DA00FA90BF /* VIP-Hakm-Regular-2016.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 152EBDA21EC647DA00FA90BF /* VIP-Hakm-Regular-2016.ttf */; };
+		152EBDA51EC651A800FA90BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBDA41EC651A800FA90BF /* Extensions.swift */; };
+		152EBDAC1EC79EE800FA90BF /* CountrySelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBDAB1EC79EE800FA90BF /* CountrySelectionController.swift */; };
+		152EBDAE1EC7A97A00FA90BF /* TypeSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBDAD1EC7A97A00FA90BF /* TypeSelectionController.swift */; };
+		152EBDB01EC7B3C900FA90BF /* YearSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBDAF1EC7B3C900FA90BF /* YearSelectionController.swift */; };
+		152EBDB21EC7B84500FA90BF /* PriceSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBDB11EC7B84500FA90BF /* PriceSelectionController.swift */; };
+		152EBDBA1EC8E0D900FA90BF /* InsuranceCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBDB91EC8E0D900FA90BF /* InsuranceCompany.swift */; };
+		152EBDBE1EC8E18200FA90BF /* Manafacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EBDBD1EC8E18200FA90BF /* Manafacturer.swift */; };
+		1597ADF91EC8FCAD00255BA5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597ADF81EC8FCAD00255BA5 /* Country.swift */; };
+		1597ADFB1EC8FD5900255BA5 /* InsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597ADFA1EC8FD5900255BA5 /* InsuranceViewController.swift */; };
+		1597ADFD1EC92B9E00255BA5 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597ADFC1EC92B9E00255BA5 /* RateViewController.swift */; };
+		1597ADFF1EC9489B00255BA5 /* DataFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597ADFE1EC9489B00255BA5 /* DataFlowManager.swift */; };
+		15B330B61ED202FB0011A467 /* FormOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B330B51ED202FB0011A467 /* FormOneViewController.swift */; };
+		15B330B81ED203310011A467 /* FormTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B330B71ED203310011A467 /* FormTwoViewController.swift */; };
+		7F0D7A4AD3C9CBB37449D01C /* Pods_iSuranceMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB98A6C253FFDE79CDB40F6D /* Pods_iSuranceMine.framework */; };
+		D0B56184A78EBF3B288DF2ED /* Pods_iSuranceMineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175697CF0D1A9BAAD05224FE /* Pods_iSuranceMineUITests.framework */; };
+		FC7196EDB68573C1D9322CBF /* Pods_iSuranceMineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D258F31ED0419BDC265769 /* Pods_iSuranceMineTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152EBD771EC3F60900FA90BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152EBD571EC3F60900FA90BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152EBD5E1EC3F60900FA90BF;
+			remoteInfo = iSuranceMine;
+		};
+		152EBD821EC3F60900FA90BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 152EBD571EC3F60900FA90BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 152EBD5E1EC3F60900FA90BF;
+			remoteInfo = iSuranceMine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		152EBD5F1EC3F60900FA90BF /* iSuranceMine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSuranceMine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		152EBD621EC3F60900FA90BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		152EBD641EC3F60900FA90BF /* CompanySelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySelectionController.swift; sourceTree = "<group>"; };
+		152EBD671EC3F60900FA90BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		152EBD6A1EC3F60900FA90BF /* iSuranceMine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSuranceMine.xcdatamodel; sourceTree = "<group>"; };
+		152EBD6C1EC3F60900FA90BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		152EBD6F1EC3F60900FA90BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		152EBD711EC3F60900FA90BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152EBD761EC3F60900FA90BF /* iSuranceMineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSuranceMineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152EBD7A1EC3F60900FA90BF /* iSuranceMineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSuranceMineTests.swift; sourceTree = "<group>"; };
+		152EBD7C1EC3F60900FA90BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152EBD811EC3F60900FA90BF /* iSuranceMineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSuranceMineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152EBD851EC3F60900FA90BF /* iSuranceMineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSuranceMineUITests.swift; sourceTree = "<group>"; };
+		152EBD871EC3F60900FA90BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152EBD951EC3F8A100FA90BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		152EBD971EC3F92700FA90BF /* CarClassification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarClassification.swift; sourceTree = "<group>"; };
+		152EBD9F1EC647B400FA90BF /* Cocon-Next-Arabic-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cocon-Next-Arabic-Light.otf"; sourceTree = "<group>"; };
+		152EBDA21EC647DA00FA90BF /* VIP-Hakm-Regular-2016.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VIP-Hakm-Regular-2016.ttf"; sourceTree = "<group>"; };
+		152EBDA41EC651A800FA90BF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		152EBDAB1EC79EE800FA90BF /* CountrySelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountrySelectionController.swift; sourceTree = "<group>"; };
+		152EBDAD1EC7A97A00FA90BF /* TypeSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeSelectionController.swift; sourceTree = "<group>"; };
+		152EBDAF1EC7B3C900FA90BF /* YearSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearSelectionController.swift; sourceTree = "<group>"; };
+		152EBDB11EC7B84500FA90BF /* PriceSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceSelectionController.swift; sourceTree = "<group>"; };
+		152EBDB91EC8E0D900FA90BF /* InsuranceCompany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuranceCompany.swift; sourceTree = "<group>"; };
+		152EBDBD1EC8E18200FA90BF /* Manafacturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manafacturer.swift; sourceTree = "<group>"; };
+		1597ADF81EC8FCAD00255BA5 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		1597ADFA1EC8FD5900255BA5 /* InsuranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuranceViewController.swift; sourceTree = "<group>"; };
+		1597ADFC1EC92B9E00255BA5 /* RateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		1597ADFE1EC9489B00255BA5 /* DataFlowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFlowManager.swift; sourceTree = "<group>"; };
+		15B330B51ED202FB0011A467 /* FormOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormOneViewController.swift; sourceTree = "<group>"; };
+		15B330B71ED203310011A467 /* FormTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTwoViewController.swift; sourceTree = "<group>"; };
+		16D258F31ED0419BDC265769 /* Pods_iSuranceMineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSuranceMineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		175697CF0D1A9BAAD05224FE /* Pods_iSuranceMineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSuranceMineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345D335F5E8430E6AF7AFC35 /* Pods-iSuranceMineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSuranceMineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSuranceMineTests/Pods-iSuranceMineTests.release.xcconfig"; sourceTree = "<group>"; };
+		382481A3D813A81FD2BA4F37 /* Pods-iSuranceMine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSuranceMine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSuranceMine/Pods-iSuranceMine.debug.xcconfig"; sourceTree = "<group>"; };
+		43AC72A32026A15B94D81C3F /* Pods-iSuranceMine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSuranceMine.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSuranceMine/Pods-iSuranceMine.release.xcconfig"; sourceTree = "<group>"; };
+		8F410CFB33122CE94FA130B5 /* Pods-iSuranceMineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSuranceMineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSuranceMineUITests/Pods-iSuranceMineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB98A6C253FFDE79CDB40F6D /* Pods_iSuranceMine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iSuranceMine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C5856C901C68B74E85AB19 /* Pods-iSuranceMineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSuranceMineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSuranceMineTests/Pods-iSuranceMineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA05BD9F248D2D6A45361462 /* Pods-iSuranceMineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSuranceMineUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSuranceMineUITests/Pods-iSuranceMineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152EBD5C1EC3F60900FA90BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0D7A4AD3C9CBB37449D01C /* Pods_iSuranceMine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EBD731EC3F60900FA90BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7196EDB68573C1D9322CBF /* Pods_iSuranceMineTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EBD7E1EC3F60900FA90BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B56184A78EBF3B288DF2ED /* Pods_iSuranceMineUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0615E7CB04732886843B00C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB98A6C253FFDE79CDB40F6D /* Pods_iSuranceMine.framework */,
+				16D258F31ED0419BDC265769 /* Pods_iSuranceMineTests.framework */,
+				175697CF0D1A9BAAD05224FE /* Pods_iSuranceMineUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		152EBD561EC3F60900FA90BF = {
+			isa = PBXGroup;
+			children = (
+				152EBD611EC3F60900FA90BF /* iSuranceMine */,
+				152EBD791EC3F60900FA90BF /* iSuranceMineTests */,
+				152EBD841EC3F60900FA90BF /* iSuranceMineUITests */,
+				152EBD601EC3F60900FA90BF /* Products */,
+				FD9D37ADDA913A91411B4431 /* Pods */,
+				0615E7CB04732886843B00C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		152EBD601EC3F60900FA90BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152EBD5F1EC3F60900FA90BF /* iSuranceMine.app */,
+				152EBD761EC3F60900FA90BF /* iSuranceMineTests.xctest */,
+				152EBD811EC3F60900FA90BF /* iSuranceMineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152EBD611EC3F60900FA90BF /* iSuranceMine */ = {
+			isa = PBXGroup;
+			children = (
+				152EBDAA1EC7987900FA90BF /* Model */,
+				152EBD991EC6475800FA90BF /* Resources */,
+				152EBD951EC3F8A100FA90BF /* GoogleService-Info.plist */,
+				152EBD621EC3F60900FA90BF /* AppDelegate.swift */,
+				1597ADFC1EC92B9E00255BA5 /* RateViewController.swift */,
+				15B330B71ED203310011A467 /* FormTwoViewController.swift */,
+				15B330B51ED202FB0011A467 /* FormOneViewController.swift */,
+				152EBDB11EC7B84500FA90BF /* PriceSelectionController.swift */,
+				152EBDAF1EC7B3C900FA90BF /* YearSelectionController.swift */,
+				152EBDAD1EC7A97A00FA90BF /* TypeSelectionController.swift */,
+				152EBD641EC3F60900FA90BF /* CompanySelectionController.swift */,
+				152EBDAB1EC79EE800FA90BF /* CountrySelectionController.swift */,
+				1597ADFA1EC8FD5900255BA5 /* InsuranceViewController.swift */,
+				152EBD661EC3F60900FA90BF /* Main.storyboard */,
+				152EBDA41EC651A800FA90BF /* Extensions.swift */,
+				152EBD6C1EC3F60900FA90BF /* Assets.xcassets */,
+				152EBD6E1EC3F60900FA90BF /* LaunchScreen.storyboard */,
+				152EBD711EC3F60900FA90BF /* Info.plist */,
+				152EBD691EC3F60900FA90BF /* iSuranceMine.xcdatamodeld */,
+			);
+			path = iSuranceMine;
+			sourceTree = "<group>";
+		};
+		152EBD791EC3F60900FA90BF /* iSuranceMineTests */ = {
+			isa = PBXGroup;
+			children = (
+				152EBD7A1EC3F60900FA90BF /* iSuranceMineTests.swift */,
+				152EBD7C1EC3F60900FA90BF /* Info.plist */,
+			);
+			path = iSuranceMineTests;
+			sourceTree = "<group>";
+		};
+		152EBD841EC3F60900FA90BF /* iSuranceMineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152EBD851EC3F60900FA90BF /* iSuranceMineUITests.swift */,
+				152EBD871EC3F60900FA90BF /* Info.plist */,
+			);
+			path = iSuranceMineUITests;
+			sourceTree = "<group>";
+		};
+		152EBD991EC6475800FA90BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				152EBDA21EC647DA00FA90BF /* VIP-Hakm-Regular-2016.ttf */,
+				152EBD9F1EC647B400FA90BF /* Cocon-Next-Arabic-Light.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		152EBDAA1EC7987900FA90BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				152EBDB91EC8E0D900FA90BF /* InsuranceCompany.swift */,
+				1597ADF81EC8FCAD00255BA5 /* Country.swift */,
+				152EBDBD1EC8E18200FA90BF /* Manafacturer.swift */,
+				152EBD971EC3F92700FA90BF /* CarClassification.swift */,
+				1597ADFE1EC9489B00255BA5 /* DataFlowManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FD9D37ADDA913A91411B4431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				382481A3D813A81FD2BA4F37 /* Pods-iSuranceMine.debug.xcconfig */,
+				43AC72A32026A15B94D81C3F /* Pods-iSuranceMine.release.xcconfig */,
+				D7C5856C901C68B74E85AB19 /* Pods-iSuranceMineTests.debug.xcconfig */,
+				345D335F5E8430E6AF7AFC35 /* Pods-iSuranceMineTests.release.xcconfig */,
+				FA05BD9F248D2D6A45361462 /* Pods-iSuranceMineUITests.debug.xcconfig */,
+				8F410CFB33122CE94FA130B5 /* Pods-iSuranceMineUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		152EBD5E1EC3F60900FA90BF /* iSuranceMine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152EBD8A1EC3F60900FA90BF /* Build configuration list for PBXNativeTarget "iSuranceMine" */;
+			buildPhases = (
+				E28A4F5B58D4328DB45666AB /* [CP] Check Pods Manifest.lock */,
+				152EBD5B1EC3F60900FA90BF /* Sources */,
+				152EBD5C1EC3F60900FA90BF /* Frameworks */,
+				152EBD5D1EC3F60900FA90BF /* Resources */,
+				9ADCEAE9F1CB63813E5EF3C0 /* [CP] Embed Pods Frameworks */,
+				20345D370A3A3236B1E988F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSuranceMine;
+			productName = iSuranceMine;
+			productReference = 152EBD5F1EC3F60900FA90BF /* iSuranceMine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152EBD751EC3F60900FA90BF /* iSuranceMineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152EBD8D1EC3F60900FA90BF /* Build configuration list for PBXNativeTarget "iSuranceMineTests" */;
+			buildPhases = (
+				7A0D260363877E4CA9681C08 /* [CP] Check Pods Manifest.lock */,
+				152EBD721EC3F60900FA90BF /* Sources */,
+				152EBD731EC3F60900FA90BF /* Frameworks */,
+				152EBD741EC3F60900FA90BF /* Resources */,
+				DA06D2854B93058B70DB1391 /* [CP] Embed Pods Frameworks */,
+				F448F84910537B5C82F8DC3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152EBD781EC3F60900FA90BF /* PBXTargetDependency */,
+			);
+			name = iSuranceMineTests;
+			productName = iSuranceMineTests;
+			productReference = 152EBD761EC3F60900FA90BF /* iSuranceMineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		152EBD801EC3F60900FA90BF /* iSuranceMineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152EBD901EC3F60900FA90BF /* Build configuration list for PBXNativeTarget "iSuranceMineUITests" */;
+			buildPhases = (
+				835702686DE5D338D8D3F283 /* [CP] Check Pods Manifest.lock */,
+				152EBD7D1EC3F60900FA90BF /* Sources */,
+				152EBD7E1EC3F60900FA90BF /* Frameworks */,
+				152EBD7F1EC3F60900FA90BF /* Resources */,
+				9F57B6A3489B5146B0D44C24 /* [CP] Embed Pods Frameworks */,
+				BD90C16D0D1D2274FA7CA8D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152EBD831EC3F60900FA90BF /* PBXTargetDependency */,
+			);
+			name = iSuranceMineUITests;
+			productName = iSuranceMineUITests;
+			productReference = 152EBD811EC3F60900FA90BF /* iSuranceMineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152EBD571EC3F60900FA90BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Abdullah Al Dhabaib";
+				TargetAttributes = {
+					152EBD5E1EC3F60900FA90BF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W9TR9GJ5W6;
+						ProvisioningStyle = Automatic;
+					};
+					152EBD751EC3F60900FA90BF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W9TR9GJ5W6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 152EBD5E1EC3F60900FA90BF;
+					};
+					152EBD801EC3F60900FA90BF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W9TR9GJ5W6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 152EBD5E1EC3F60900FA90BF;
+					};
+				};
+			};
+			buildConfigurationList = 152EBD5A1EC3F60900FA90BF /* Build configuration list for PBXProject "iSuranceMine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 152EBD561EC3F60900FA90BF;
+			productRefGroup = 152EBD601EC3F60900FA90BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152EBD5E1EC3F60900FA90BF /* iSuranceMine */,
+				152EBD751EC3F60900FA90BF /* iSuranceMineTests */,
+				152EBD801EC3F60900FA90BF /* iSuranceMineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152EBD5D1EC3F60900FA90BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152EBD701EC3F60900FA90BF /* LaunchScreen.storyboard in Resources */,
+				152EBDA31EC647DA00FA90BF /* VIP-Hakm-Regular-2016.ttf in Resources */,
+				152EBD961EC3F8A100FA90BF /* GoogleService-Info.plist in Resources */,
+				152EBD6D1EC3F60900FA90BF /* Assets.xcassets in Resources */,
+				152EBDA11EC647B400FA90BF /* Cocon-Next-Arabic-Light.otf in Resources */,
+				152EBD681EC3F60900FA90BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EBD741EC3F60900FA90BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EBD7F1EC3F60900FA90BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20345D370A3A3236B1E988F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSuranceMine/Pods-iSuranceMine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0D260363877E4CA9681C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		835702686DE5D338D8D3F283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADCEAE9F1CB63813E5EF3C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSuranceMine/Pods-iSuranceMine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F57B6A3489B5146B0D44C24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSuranceMineUITests/Pods-iSuranceMineUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD90C16D0D1D2274FA7CA8D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSuranceMineUITests/Pods-iSuranceMineUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA06D2854B93058B70DB1391 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSuranceMineTests/Pods-iSuranceMineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28A4F5B58D4328DB45666AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F448F84910537B5C82F8DC3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSuranceMineTests/Pods-iSuranceMineTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152EBD5B1EC3F60900FA90BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152EBDAC1EC79EE800FA90BF /* CountrySelectionController.swift in Sources */,
+				152EBDA51EC651A800FA90BF /* Extensions.swift in Sources */,
+				152EBD981EC3F92700FA90BF /* CarClassification.swift in Sources */,
+				152EBDB21EC7B84500FA90BF /* PriceSelectionController.swift in Sources */,
+				15B330B81ED203310011A467 /* FormTwoViewController.swift in Sources */,
+				1597ADF91EC8FCAD00255BA5 /* Country.swift in Sources */,
+				152EBDB01EC7B3C900FA90BF /* YearSelectionController.swift in Sources */,
+				1597ADFD1EC92B9E00255BA5 /* RateViewController.swift in Sources */,
+				152EBDAE1EC7A97A00FA90BF /* TypeSelectionController.swift in Sources */,
+				152EBDBA1EC8E0D900FA90BF /* InsuranceCompany.swift in Sources */,
+				152EBD6B1EC3F60900FA90BF /* iSuranceMine.xcdatamodeld in Sources */,
+				152EBD651EC3F60900FA90BF /* CompanySelectionController.swift in Sources */,
+				15B330B61ED202FB0011A467 /* FormOneViewController.swift in Sources */,
+				1597ADFB1EC8FD5900255BA5 /* InsuranceViewController.swift in Sources */,
+				1597ADFF1EC9489B00255BA5 /* DataFlowManager.swift in Sources */,
+				152EBDBE1EC8E18200FA90BF /* Manafacturer.swift in Sources */,
+				152EBD631EC3F60900FA90BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EBD721EC3F60900FA90BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152EBD7B1EC3F60900FA90BF /* iSuranceMineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EBD7D1EC3F60900FA90BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152EBD861EC3F60900FA90BF /* iSuranceMineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152EBD781EC3F60900FA90BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152EBD5E1EC3F60900FA90BF /* iSuranceMine */;
+			targetProxy = 152EBD771EC3F60900FA90BF /* PBXContainerItemProxy */;
+		};
+		152EBD831EC3F60900FA90BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 152EBD5E1EC3F60900FA90BF /* iSuranceMine */;
+			targetProxy = 152EBD821EC3F60900FA90BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		152EBD661EC3F60900FA90BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152EBD671EC3F60900FA90BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		152EBD6E1EC3F60900FA90BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152EBD6F1EC3F60900FA90BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		152EBD881EC3F60900FA90BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		152EBD891EC3F60900FA90BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152EBD8B1EC3F60900FA90BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382481A3D813A81FD2BA4F37 /* Pods-iSuranceMine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9TR9GJ5W6;
+				INFOPLIST_FILE = iSuranceMine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Al-Dhabaib.iSuranceMine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		152EBD8C1EC3F60900FA90BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AC72A32026A15B94D81C3F /* Pods-iSuranceMine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9TR9GJ5W6;
+				INFOPLIST_FILE = iSuranceMine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Al-Dhabaib.iSuranceMine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		152EBD8E1EC3F60900FA90BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C5856C901C68B74E85AB19 /* Pods-iSuranceMineTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W9TR9GJ5W6;
+				INFOPLIST_FILE = iSuranceMineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Al-Dhabaib.iSuranceMineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSuranceMine.app/iSuranceMine";
+			};
+			name = Debug;
+		};
+		152EBD8F1EC3F60900FA90BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345D335F5E8430E6AF7AFC35 /* Pods-iSuranceMineTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W9TR9GJ5W6;
+				INFOPLIST_FILE = iSuranceMineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Al-Dhabaib.iSuranceMineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSuranceMine.app/iSuranceMine";
+			};
+			name = Release;
+		};
+		152EBD911EC3F60900FA90BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA05BD9F248D2D6A45361462 /* Pods-iSuranceMineUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W9TR9GJ5W6;
+				INFOPLIST_FILE = iSuranceMineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Al-Dhabaib.iSuranceMineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSuranceMine;
+			};
+			name = Debug;
+		};
+		152EBD921EC3F60900FA90BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F410CFB33122CE94FA130B5 /* Pods-iSuranceMineUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W9TR9GJ5W6;
+				INFOPLIST_FILE = iSuranceMineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abdullah-Al-Dhabaib.iSuranceMineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iSuranceMine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152EBD5A1EC3F60900FA90BF /* Build configuration list for PBXProject "iSuranceMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152EBD881EC3F60900FA90BF /* Debug */,
+				152EBD891EC3F60900FA90BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152EBD8A1EC3F60900FA90BF /* Build configuration list for PBXNativeTarget "iSuranceMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152EBD8B1EC3F60900FA90BF /* Debug */,
+				152EBD8C1EC3F60900FA90BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152EBD8D1EC3F60900FA90BF /* Build configuration list for PBXNativeTarget "iSuranceMineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152EBD8E1EC3F60900FA90BF /* Debug */,
+				152EBD8F1EC3F60900FA90BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152EBD901EC3F60900FA90BF /* Build configuration list for PBXNativeTarget "iSuranceMineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152EBD911EC3F60900FA90BF /* Debug */,
+				152EBD921EC3F60900FA90BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		152EBD691EC3F60900FA90BF /* iSuranceMine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				152EBD6A1EC3F60900FA90BF /* iSuranceMine.xcdatamodel */,
+			);
+			currentVersion = 152EBD6A1EC3F60900FA90BF /* iSuranceMine.xcdatamodel */;
+			path = iSuranceMine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 152EBD571EC3F60900FA90BF /* Project object */;
+}
